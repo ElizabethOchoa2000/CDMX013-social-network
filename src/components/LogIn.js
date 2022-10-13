@@ -11,11 +11,9 @@ export const login = () => {
   const emailLogin = document.createElement('input');
   emailLogin.setAttribute('class', 'input');
 
-
   const passLogin = document.createElement('input');
   passLogin.setAttribute('class', 'input');
   passLogin.setAttribute('type', 'password');
-
 
   const buttonLogin = document.createElement('button');
   buttonLogin.setAttribute('id', 'buttonLogin-login');
