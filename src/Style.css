@@ -109,6 +109,17 @@ body {
 
 }
 
+
+
+
+
+ALINEEEEEEE
+
+.inputFeed {
+	display: flex;
+	justify-content: center;
+}
+
 .input {
 	display: flex;
 	width:22vh;
@@ -131,4 +142,35 @@ body {
 	padding-top: 20px;
 	word-wrap: normal;
 	flex-direction: column;
+
 }
+
+.buttonDelete {
+	width: 80px;
+	height: 30px;
+	background-color: #191a19;
+	border: 1px solid #FFFFFF;
+	border-radius: 100px;
+	font-family: 'Denk One', sans-serif;
+	color: #FFFFFF;
+}
+
+.postText {
+	
+	color:#fff;
+	font-family: 'Denk One' sans-serif;
+	display: flex;
+	justify-content: center;
+
+}
+
+.post {
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin: 15px;
+	padding: 10px;
+
+}
+
+
+

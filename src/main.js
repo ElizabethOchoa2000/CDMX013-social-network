@@ -1,3 +1,10 @@
+
+import { welcome } from './components/Welcome.js';
+import { signup } from './components/signup.js';
+import { login } from './components/LogIn.js';
+import { feed } from './components/feed.js';
+import { onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js';
+import { auth } from './lib/auth.js';
 import { onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js';
 import { welcome } from './components/Welcome.js';
 import { signup } from './components/Signup.js';
@@ -5,6 +12,7 @@ import { login } from './components/Login.js';
 import { feed } from './components/Feed.js';
 import { auth } from './lib/auth.js';
 // import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.js';
+
 
 const root = document.getElementById('root');
 
