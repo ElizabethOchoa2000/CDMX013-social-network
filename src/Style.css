@@ -113,9 +113,6 @@ body {
 
 
 
-
-
-
 ALINEEEEEEE
 
 .inputFeed {
@@ -145,6 +142,7 @@ ALINEEEEEEE
 	padding-top: 20px;
 	word-wrap: normal;
 	flex-direction: column;
+
 }
 
 .buttonDelete {
@@ -173,5 +171,6 @@ ALINEEEEEEE
 	padding: 10px;
 
 }
+
 
 

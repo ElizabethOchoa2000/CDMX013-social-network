@@ -9,7 +9,13 @@ export const login = () => {
   title.setAttribute('class', 'title-login');
 
 
+
   //más adelante será necesario saber quién escribio el post
+  const emailLogin = document.createElement('input');
+  emailLogin.setAttribute('class', 'input');
+
+
+
   const emailLogin = document.createElement('input');
   emailLogin.setAttribute('class', 'input');
 

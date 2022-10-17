@@ -1,3 +1,4 @@
+
 import { getFirestore, collection, addDoc, onSnapshot, deleteDoc, doc, query, where, getDocs } from 'https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.js';
 import { app } from './config.js';
 import { auth } from './auth.js';
@@ -13,11 +14,23 @@ export const savePost = (textpost, nodo) => {
   const promesa = addDoc(collection(db, 'post'), {
     message: textpost,
     user: auth.currentUser.uid, //ALINE - aquí está guardando el ID del user que está autenticado del momento
+
+import { getFirestore, collection, addDoc, onSnapshot } from 'https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.js';
+import { app } from './config.js';
+
+const db = getFirestore(app);
+
+export const savePost = (textpost) => {
+  const promesa = addDoc(collection(db, 'post'), {
+    message: textpost
   });
 
   console.log('promesa', promesa);
   promesa.then((resultado) => {
+
     nodo.value = '';
+
+
     console.log('respuesta', resultado.id);
   });
 };
@@ -25,6 +38,7 @@ export const savePost = (textpost, nodo) => {
 export const getPost = (callback) => {
   onSnapshot(collection(db, 'post'), callback);
 };
+
 
 
 
@@ -56,3 +70,4 @@ export const deletePost = async (identifier) => { //identifier es el texto que i
       
     });
 };
+
