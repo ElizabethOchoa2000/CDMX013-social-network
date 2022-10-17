@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&display=swap');
+
+body {
+	background-color: #191a19;
+}
+
+.welcome {
+	background-color: rgba(0, 0, 0, 0);
+	color: rgb(255, 255, 255);
+	border: 1px solid #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px;
+	border-radius: 20px;
+	height: 50em;
+	width: 30vh;
+	padding-top: 20px;
+	word-wrap: normal;
+	flex-direction: column;
+}
+
+.buttonlogin-welcome {
+	text-align: center;
+	width: 226px;
+	height: 44px;
+	left: 102px;
+	top: 457px;
+	background-color: #191a19;
+	border: 1px solid #FFFFFF;
+	border-radius: 100px;
+	font-family: 'Denk One', sans-serif;
+	color: #FFFFFF;
+}
+
+
+.buttonloginSingup {
+	text-align: center;
+	width: 226px;
+	height: 44px;
+	left: 102px;
+	top: 457px;
+	background-color: #191a19;
+	border: 1px solid #FFFFFF;
+	border-radius: 100px;
+	font-family: 'Denk One', sans-serif;
+	color: #FFFFFF;
+}
+
+.title-welcome {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Denk One', sans-serif;
+	color: #FFFFFF;
+	font-size: 64px;
+}
+
+.logo {
+	width: 57px;
+}
+
+.title-login {
+	font-family: 'Denk One', sans-serif;
+	color: aliceblue;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.Name-login {
+	text-align: center;
+	border-radius: 50em;
+	background-image: url("./images/icon.png");
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	background-position-y: 8px;
+	font-size: 2em;
+	background-size: 40px;
+}
+
+.Email-login {
+	text-align: center;
+	border-radius: 50em;
+	background-image: url("./images/email.png");
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	background-position-y: 5px;
+	font-size: 2em;
+	background-size: 40px;
+
+
+}
+
+#buttonLogin-login {
+	text-align: center;
+	border-radius: 50em;
+	background-color: #DFAEFF;
+	font-family: 'Denk One', sans-serif;
+
+}
+
+#buttonBack-login {
+	background-image: url("./images/back.png");
+	background-size: 10em;
+	text-align: center;
+	border-radius: 5em;
+	background-color: #DFAEFF;
+	font-family: 'Denk One', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+ALINEEEEEEE
+
+.inputFeed {
+	display: flex;
+	justify-content: center;
+}
+
+.input {
+	display: flex;
+	width:22vh;
+	height:30px;
+	background: #FFFFFF;
+	border: 1px solid #000;
+	border-radius: 100px; 
+}
+
+.caja {
+	background-color: rgba(0, 0, 0, 0,);
+	color: rgb(255, 255, 255);
+	border: 1px solid #fff;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	padding: 12px;
+	height: 50em;
+	width: 30vh;
+	padding-top: 20px;
+	word-wrap: normal;
+	flex-direction: column;
+}
+
+.buttonDelete {
+	width: 80px;
+	height: 30px;
+	background-color: #191a19;
+	border: 1px solid #FFFFFF;
+	border-radius: 100px;
+	font-family: 'Denk One', sans-serif;
+	color: #FFFFFF;
+}
+
+.postText {
+	
+	color:#fff;
+	font-family: 'Denk One' sans-serif;
+	display: flex;
+	justify-content: center;
+
+}
+
+.post {
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin: 15px;
+	padding: 10px;
+
+}
+
+
